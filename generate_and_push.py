@@ -9,10 +9,10 @@ def generate_post():
 
     content = f"""# Test Post
 
-Generated at: {datetime.now()}
+                Generated at: {datetime.now()}
 
-This is automated content.
-"""
+                This is automated content.
+                """
 
     return filename, content
 
